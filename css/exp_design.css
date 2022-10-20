@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+:root{
+    --bg-black-900:#f2f2fc;
+    --bg-black-100:#fdf9ff;
+    --bg-black-50:#e8dfec;
+    --text-black-900:#302e4d;
+    --text-black-700:#504e70;
+}
+
+.header{
+    color: var(--skin-color);
+    font-family: 'Poppins';
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #f2f2fc;
+    position: sticky;
+    top: 0;
+}
+
+.content{
+    font-family: 'Poppins';
+    padding-left: 70vh;
+}
+
+.content ul{
+    list-style: none;
+}
+
+.skill1, .skill2, .skill3, .skill4{
+    position: absolute;
+    /* border: 8vw solid black; */
+    border-style: solid;
+    height: 2vh;
+    width: 35vh;
+    margin-bottom: 2vh;
+}
+
+.skill1_meter, .skill2_meter, .skill3_meter, .skill4_meter{
+    border-style: solid;
+    height: 2vh;
+    width: 30vh;
+}
+
+.content .list{
+    list-style:square;
+}
+
+.content img{
+    width: 40vh;
+}
